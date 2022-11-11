@@ -1,1 +1,2 @@
-Projects are in their own branches for self organization with readme for a one sentence summary.
+# COMPSCI 119.01 - Project 3
+Cleaning up and analyzing a set of data from https://kaggle.com and performing statistical tests on it
