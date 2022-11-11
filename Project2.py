@@ -1,5 +1,5 @@
 #TODO 0:
-# YOUR NAME, PROJECT 2, DATE
+#COMPSCI 119.01 - Project 2 - Jacqueline "Nora" Cole - Date Submitted: November 10th, 2022
 '''
 We use random to pick a random word from the supplied words list (saved in the words.py file)
 If there is an issue importing the supplied word_list, 
