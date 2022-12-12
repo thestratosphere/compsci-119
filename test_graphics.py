@@ -30,6 +30,7 @@ write_bmp(canvas,"Test4.bmp")
 # TEST PROGRAM FOR GRAPHICS LIBRARY 
 # Copyright (C) 2020-2022 -- Dr. William T. Verts 
 #-------------------------------------------------------------
+
 #------------------------------------------------------------ 
 # Build the canvas and define variables for later use. 
 #------------------------------------------------------------ 
@@ -54,7 +55,8 @@ for X in range(0, get_width(canvas), 10):
     add_vertical_line(canvas, X, Band, get_height(canvas)-1, blue) 
 #------------------------------------------------------------ 
 # Draw a green filled box from screen left to screen right 
-# for the first 40 lines, surrounded by a black outline. #------------------------------------------------------------ 
+# for the first 40 lines, surrounded by a black outline.
+#------------------------------------------------------------ 
 add_rectangle_filled_sized (canvas, 0, 0, get_width(canvas), Band, green) 
 add_rectangle_outline_sized(canvas, 0, 0, get_width(canvas)-1, Band-1, black) 
 #------------------------------------------------------------ 
@@ -96,7 +98,7 @@ add_line(canvas,125, 30,115, 30)
 add_line(canvas,115, 30,112, 25) 
 #------------------------------------------------------------ 
 # Add your signature (Extra Credit) and Save the image to file. 
-# #------------------------------------------------------------ 
+#------------------------------------------------------------ 
 add_text(canvas, XMid // 2, Band - 8,  my_name, blue) 
 print ("Pixels in canvas = ", get_width(canvas)*get_height(canvas)) 
 print ("Items in canvas = ",len(canvas)) 
